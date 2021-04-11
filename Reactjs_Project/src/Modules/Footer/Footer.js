@@ -1,16 +1,107 @@
 import React from 'react';
 
-class Footer = () => {
+const Footer = () => {
     return (
-        <div id="footer" class="footer">
-            <div class="container">
-                <div class="hidden-xs col-sm-5"> <strong>Truyện Full</strong> - <a title="Đọc truyện online" href="https://truyenfull.vn/">Đọc truyện</a> online, <a title="Đọc truyện chữ" href="https://truyentr.com/">đọc truyện</a> chữ, <a title="Truyện hay" href="https://truyenfull.vn/">truyện hay</a>. Website luôn cập nhật những bộ <a title="Truyện mới" href="https://truyenfull.vn/danh-sach/truyen-moi/">truyện mới</a> thuộc các thể loại đặc sắc như <a title="Truyện tiên hiệp" href="https://truyenfull.vn/the-loai/tien-hiep/">truyện tiên hiệp</a>, <a title="Truyện kiếm hiệp" href="https://truyenfull.vn/the-loai/kiem-hiep/">truyện kiếm hiệp</a>, hay <a title="Truyện ngôn tình" href="https://truyenfull.vn/the-loai/ngon-tinh/">truyện ngôn tình</a> một cách nhanh nhất. Hỗ trợ mọi thiết bị như di động và máy tính bảng.</div>
-                <ul class="col-xs-12 col-sm-7 list-unstyled">
-                    <li class="text-right pull-right"><a href="https://truyenfull.vn/contact/" title="Contact">Contact</a> - <a href="https://truyenfull.vn/tos/" title="Terms of Service">ToS</a><a class="backtop" title="Trở lên đầu trang" href="#wrap" rel="nofollow" aria-label="Trở về đầu trang"><span class="glyphicon glyphicon-upload"></span></a> </li>
-                    <li class="hidden-xs tag-list"><a href="https://truyenfull.vn/danh-sach/dam-my-hai/" title="đam mỹ hài">đam mỹ hài</a> <a href="https://truyenfull.vn/the-loai/xuyen-nhanh/" title="truyện xuyên nhanh">truyện xuyên nhanh</a> <a href="https://truyenfull.vn/danh-sach/ngon-tinh-sung/" title="ngôn tình sủng">ngôn tình sủng</a> <a href="https://truyenfull.vn/danh-sach/ngon-tinh-hai/" title="ngôn tình hài">ngôn tình hài</a> <a href="https://truyenfull.vn/danh-sach/truyen-teen-hay/" title="truyện teen hay">truyện teen hay</a> <a href="https://truyenfull.vn/danh-sach/ngon-tinh-hay/" title="ngôn tình hay">ngôn tình hay</a> <a href="https://truyenfull.vn/the-loai/dam-my/" title="truyện đam mỹ">truyện đam mỹ</a> <a href="https://truyenfull.vn/the-loai/ngon-tinh/hoan/" title="truyện ngôn tình">truyện ngôn tình</a> <a href="https://truyenfull.vn/the-loai/ngon-tinh/hoan/" title="ngôn tình hoàn">ngôn tình hoàn</a> <a href="https://truyenfull.vn/danh-sach/ngon-tinh-nguoc/" title="ngôn tình ngược">ngôn tình ngược</a> <a href="https://truyenfull.vn/danh-sach/kiem-hiep-hay/" title="truyện kiếm hiệp hay">truyện kiếm hiệp hay</a> <a href="https://truyenfull.vn/danh-sach/tien-hiep-hay/" title="truyện tiên hiệp hay">truyện tiên hiệp hay</a> <a href="https://truyenfull.vn/the-loai/he-thong/" title="truyện hệ thống">truyện hệ thống</a></li>
-                </ul>
+        // footer
+        <footer>
+            <div className="footerv2-w3ls">
+                <div className="footer-w3lagile-innerr">
+                    {/* footer-top */}
+                    <div className="container-fluid">
+                        <div className="row  footer-v2grids w3-agileits">
+                            
+                            <div className="container">
+                                <ul className="bottom-links-agile">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+        
+                                </ul>
+                                <h3 className="text-center follow">Follow Us</h3>
+                                <ul className="social-iconsv2 agileinfo">
+                                    <li>
+                                        <a href="https://www.facebook.com/">
+                                            <i className="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/">
+                                            <i className="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="https://www.youtube.com/">
+                                            <i className="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/">
+                                            <i className="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.google.com.vn/">
+                                            <i className="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                {/* footer-bottom */}
+                <div className="container-fluid py-2 footer-copy_w3ls">
+                    <div className="d-lg-flex justify-content-between">
+                        <div className="mt-2 sub-some align-self-lg-center">
+                            <h5>Payment Method</h5>
+                            <ul className="mt-4">
+                                <li className="list-inline-item">
+                                    <img src="images/pay2.png" alt="" />
+                                </li>
+                                <li className="list-inline-item">
+                                    <img src="images/pay5.png" alt="" />
+                                </li>
+                                <li className="list-inline-item">
+                                    <img src="images/pay3.png" alt="" />
+                                </li>
+                                <li className="list-inline-item">
+                                    <img src="images/pay7.png" alt="" />
+                                </li>
+                                <li className="list-inline-item">
+                                    <img src="images/pay8.png" alt="" />
+                                </li>
+                                <li className="list-inline-item ">
+                                    <img src="images/pay9.png" alt="" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="cpy-right align-self-center">
+                            <h2 className="agile_btxt">
+                                <a href="index.html">
+                                    <span>๖ۣۜ𝓑</span>𝓸𝓸𝓴
+                                    <span>𝓢</span>𝓽𝓸𝓻𝓮
+                                </a>
+                            </h2>
+                            <p>© 2021 Book Store. All rights reserved | Design by
+                                <a href="#team3" className="text-secondary" alt=""> Team3</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </footer>
     );
 }
 

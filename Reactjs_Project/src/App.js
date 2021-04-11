@@ -1,30 +1,37 @@
 import './App.css';
 
-import TopBanner from './Modules/TopBanner/TopBanner';
-import IntroIndex from './Modules/IntroIndex/IntroIndex';
-// import Wrap from './Modules/Wrap/Wrap';
-import Slider from './Modules/Slider/Slider';
-import Truyenslide from './Modules/Truyenslide/Truyenslide';
-import ListIndex from './Modules/ListIndex/ListIndex';
+import Navbar from './Modules/Navbar/Navbar';
+
+import Trang_chu from './Pages/Trang_chu';
+
 import Footer from './Modules/Footer/Footer';
+import { useState } from 'react';
+import {Link,  Route,  BrowserRouter as Router,  Switch} from 'react-router-dom';
 
 function App() {
+  const[load_navbar, SetLoadTopBanner] = useState(true);
+
+  const handleUnMountTopBanner = () => {
+    SetLoadTopBanner(false);
+  }
+
   return (
     <>
+    <Router>
+      {
+        (load_navbar)?
+        <Navbar title_page={"๖ۣۜ𝓑" + ".𝓢𝓽𝓸𝓻𝓮"} delete_me={handleUnMountTopBanner} />
+        : null
+      }
 
-    <TopBanner title_page={"B." + "Store" + Math.round(Math.random() * 100)} />
+      <Switch>
+        <Route path='/'>
+          <Trang_chu />
+        </Route>
+      </Switch>
 
-    <Slider />
-
-    {/* <Wrap /> */}
-
-    <IntroIndex />
-
-    <ListIndex />
-
-    <Truyenslide />
-
-    <Footer />
+      <Footer />
+    </Router>
     
     </>
   );
