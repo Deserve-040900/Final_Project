@@ -101,10 +101,10 @@ class Navbar extends Component {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#bookhot">SÁCH</a>
+                                <a className="nav-link" href="bookhot.html">SÁCH</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#storyhot">TRUYỆN</a>
+                                <a className="nav-link" href="storyhot.html">TRUYỆN</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="about.html">GIỚI THIỆU</a>
@@ -113,7 +113,13 @@ class Navbar extends Component {
                                 <a className="nav-link" href="blog.html">BLOG</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="event.html">SỰ KIỆN</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="contact.html">LIÊN HỆ</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="faqs.html">FAQS</a>
                             </li>
                         </ul>
                     </div>

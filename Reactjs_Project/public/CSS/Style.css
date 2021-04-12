@@ -210,6 +210,18 @@ h5.head_agileinfo {
     font-family: 'Elsie Swash Caps', cursive;
     margin-top: 50px;
 }
+h5.head_agileinfo span.about{
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
 
 h5.head_agileinfo span {
     
@@ -272,6 +284,9 @@ h5.shop_w3 {
 .agile_bts{
     color: red; 
     font-size: 30px;
+}
+img.img-respon{
+    height: 800px;
 }
 img.img-responsive{
     height: 500px; 
@@ -897,11 +912,12 @@ p.c-txt {
     color: #000;
 }
 
-.contact-top1 .form-group label,
+.contact-top1 .form-group p,
 form.f-color .form-control {
     color: #000;
     letter-spacing: 1px;
     background: transparent;
+    font-size: larger;
 }
 
 .text-capitalize{
