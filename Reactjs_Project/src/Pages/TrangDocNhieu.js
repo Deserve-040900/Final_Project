@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ItemDocNhieu from '../Module/SuKien/ItemDocNhieu';
+import ItemDocNhieu from '../Modules/SuKien/ItemDocNhieu';
 class TrangDocNhieu extends Component {
     render() {
         return (

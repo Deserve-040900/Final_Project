@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DangTin from '../Module/DangTin/dangtin';
+import DangTin from '../Modules/DangTin/dangtin';
 
 class Trang_blog extends Component {
     render() {

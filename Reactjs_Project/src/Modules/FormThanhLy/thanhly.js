@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import Header from '../Header/header';
 import { Link } from 'react-router-dom';
 class thanhly extends Component {
     constructor (props) {
@@ -173,14 +172,13 @@ class thanhly extends Component {
                     <button type="button" class="btn btn-close" onClick={this.handleShowHiden}>
                         <i class="icofont-close-circled"></i>
                     </button>
-                    <img className="image-preview" src={this.state.file} />
+                    <img className="image-preview" src={this.state.file} alt="" />
                 </div>
             );
         }
 
         return (
             <div>
-                <Header/>
                 <div className="container">
                 <form id="form-thanh-ly" class="form-tl" onSubmit={this.handleSubmitFormThanhLy}>
                     <div className="section-title">
@@ -188,20 +186,20 @@ class thanhly extends Component {
                         <h2>THANH LÝ</h2>
                     </div>
                     <div className="form-group">
-                    <label for="">Tiêu đề</label>
+                    <div>Tiêu đề</div>
                         <input className="form-input" type="text" name="tieude" onChange={this.handleChangeInput} value={this.state.tieude} id="" placeholder="Tiêu đề" />
                         <div className="error">
                             {this.state.message_error.tieude}
                         </div>
-                        <label for="">Mô tả chi tiết</label>
+                        <div>Mô tả chi tiết</div>
                         <textarea className="form-input  mo-ta" name="mota" onChange={this.handleChangeInput} value={this.state.mota} id="" cols="30" rows="10"></textarea>
 
-                        <label for="">Hình ảnh</label>
+                        <div>Hình ảnh</div>
                         <div className="file-img">
                             <p>Chọn ít nhất một ảnh</p>
                             <button type="button" class="button-img">
                                 <input type="file" id="file1" onChange={this.handleReviewImage} value={this.state.image}  name="image" accept="image/*" capture />
-                                <img src="img/icon-button.png" alt="" id="choosefile" />
+                                <img src="images/icon-button.png" alt="" id="choosefile" />
                             </button>
                             {showAndHienImage}
                         </div>
@@ -210,7 +208,7 @@ class thanhly extends Component {
                         <div className="error">
                             {this.state.message_error.image}
                         </div>
-                        <label for="">Giá</label>
+                        <div>Giá</div>
 
                         <input className="form-input" type="text" name="gia" onChange={this.handleChangeInput} value={this.state.gia} id="" placeholder="Giá" />
                         <div className="error">

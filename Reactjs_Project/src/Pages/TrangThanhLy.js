@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FormThanhLy from '../Module/FormThanhLy/thanhly';
+import FormThanhLy from '../Modules/FormThanhLy/thanhly';
 class TrangThanhLy extends Component {
     render() {
         return (

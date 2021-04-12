@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../Module/Header/header';
-import FAQ from '../Module/FAQ/faq';
+import FAQ from '../Modules/FAQ/faq';
 
 class TrangFAQ extends Component {
     render() {

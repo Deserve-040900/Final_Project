@@ -1,4 +1,5 @@
 import React from 'react';
+import ExamplePagination from '../TestMaterialUI/ExamplePagination';
 
 const Shop = () => {
     return (
@@ -201,7 +202,7 @@ const Shop = () => {
                             <h3 className="shopf-sear-headits-sear-head">Đánh giá</h3>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="#1">
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
@@ -211,7 +212,7 @@ const Shop = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#2">
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
@@ -221,7 +222,7 @@ const Shop = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#3">
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
@@ -231,7 +232,7 @@ const Shop = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#4">
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
@@ -241,7 +242,7 @@ const Shop = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#5">
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star" aria-hidden="true"></i>
                                         <i className="fa fa-star-half-o" aria-hidden="true"></i>
@@ -294,7 +295,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="giohang.html" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 <div>
@@ -332,7 +333,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -367,7 +368,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -402,7 +403,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -442,7 +443,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 <div>                                        
@@ -479,7 +480,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -514,7 +515,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -549,7 +550,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -589,7 +590,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 <div>
@@ -627,7 +628,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -662,7 +663,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -697,7 +698,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -760,7 +761,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -795,7 +796,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -830,7 +831,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -869,7 +870,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -904,7 +905,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -939,7 +940,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -974,7 +975,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1013,7 +1014,6 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
                                         </form>
                                     </div>
                                 </div>
@@ -1048,7 +1048,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1083,7 +1083,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1118,7 +1118,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1158,7 +1158,6 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
                                         </form>
                                     </div>
                                 <div>
@@ -1196,7 +1195,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1231,7 +1230,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1266,7 +1265,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1329,7 +1328,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1364,7 +1363,7 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
@@ -1399,26 +1398,16 @@ const Shop = () => {
                                             <button type="submit" className="hub-cart phub-cart btn">
                                                 <i className="fa fa-cart-plus" aria-hidden="true">Mua ngay</i>
                                             </button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                            {/* <a href="#" data-toggle="modal" data-target="#myModal1"></a> */}
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <ul className="pagination justify-content-end">
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">Previous</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">1</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">2</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">3</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">4</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">5</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">...</a></li>
-                            <li className="page-item"><a className="page-link" href="javascript:void(0);">Next</a></li>
-                        </ul>
+                        <ExamplePagination />
 
                     </div>
-                    <!-- //grid right -->
                 </div>
             </div>
         </div>

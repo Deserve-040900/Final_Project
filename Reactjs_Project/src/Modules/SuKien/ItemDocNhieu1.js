@@ -743,8 +743,8 @@ const ItemDocNhieu1 = () => {
                         <div className="most_read">
                             <div className="box_content">
                                 <div id="box_title">Relax</div>
-                                <img src="img/relax.gif" class="img-responsive" alt="Image"/>
-                                <img src="img/2019.jpg" class="img-responsive" alt="Image"/>
+                                <img src="images/relax.gif" class="img-responsive" alt=""/>
+                                <img src="images/2019.jpg" class="img-responsive" alt=""/>
                             </div>
                         </div>
                     </div>

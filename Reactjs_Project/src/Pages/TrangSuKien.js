@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SuKien from '../Module/SuKien/sukien';
+import SuKien from '../Modules/SuKien/sukien';
 class TrangSuKien extends Component {
     render() {
         return (
