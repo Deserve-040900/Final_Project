@@ -1602,6 +1602,7 @@
             }
         }
     </style>
+
     <link rel="search" type="application/opensearchdescription+xml" href="https://static.8cache.com/xml/opensearch.xml" title="Search">
     <link rel="shortcut icon" type="image/x-icon" href="https://static.8cache.com/favicon.ico">
     <link rel="icon" type="image/png" href="https://static.8cache.com/favicons/favicon-192x192.png" sizes="192x192">
@@ -1831,7 +1832,9 @@
                 <div class="container breadcrumb-container"> Đọc truyện online, đọc truyện chữ, truyện full, truyện hay. Tổng hợp đầy đủ và cập nhật liên tục. </div>
             </div>
         </div>
+        
         <div class="container header-ads" id="header-ads"></div>
+        
         <div class="container" id="intro-index">
             <div class="title-list">
                 <h2><a href="https://truyenfull.vn/danh-sach/truyen-hot/" title="Truyện hot">Truyện hot</a></h2><a href="https://truyenfull.vn/danh-sach/truyen-hot/" title="Truyện hot"><span class="glyphicon glyphicon-fire"></span></a><select id="hot-select" class="form-control new-select" aria-label="Chọn thể loại">

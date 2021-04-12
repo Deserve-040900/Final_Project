@@ -36,7 +36,7 @@ const BookHot = () => {
                                         <img src="images/fs1.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="womens.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@ const BookHot = () => {
                                         <img src="images/fs2.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="womens.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +188,7 @@ const BookHot = () => {
                                         <img src="images/fs3.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="womens.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -258,9 +258,161 @@ const BookHot = () => {
                             </div>
 
                             <div class="item">
+                                {/* card */}
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs13.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* card body */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Biên niên cô đơn</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$20.99</p>
+                                            <p class="line-through">$26.99</p>
+                                        </div>
+                                    </div>
+                                    {/* card footer */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <div class="matrlf-mid"> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (1348)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Sleeveless Women's Top" />
+                                            <input type="hidden" name="amount" value="20.99" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                {/* card */}
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs14.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* card body */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Cây cam ngọt của tôi</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$28.00</p>
+                                            <p class="line-through">$35.99</p>
+                                        </div>
+                                    </div>
+                                    {/* card footer */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <div class="matrlf-mid"> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (1348)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Sleeveless Women's Top" />
+                                            <input type="hidden" name="amount" value="20.99" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
                                 <div class="product-men p-3 text-center">
                                     <img src="images/p2.png" class="img-responsive" alt="" />
-                                    <a href="women.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
+                                    <a href="bookhot.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
                                 </div>
                             </div>
                         </div>
@@ -276,7 +428,7 @@ const BookHot = () => {
                                         <img src="images/fs5.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -349,10 +501,10 @@ const BookHot = () => {
                                 {/* card */}
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/fs6.jpg" alt="img" class="card-img-top" />
+                                        <img src="images/fs5.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -366,57 +518,9 @@ const BookHot = () => {
                                     </div>
                                     {/* card footer */}
                                     <div class="card-footer d-flex justify-content-end">
-                                        <div class="caption">
-                                            {/* <div class="matrlf-mid"> */}
-                                                <ul class="ratingfocus">
-                                                    <li>
-                                                        <a href="#1">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#2">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#3">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#4">
-                                                            <span class="fa fa-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#5">
-                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        (5398)
-                                                    </li>
-                                                </ul>
-                                                <img src="images/logobanhang.png" alt="" />
-                                                <button class="cheap">Cheaper refunds</button>
-                                                <br/>
-                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
-                                                <button class="cheap">Free ship now</button>
-                                                <div class="clearfix"> </div>
-                                            {/* </div> */}
-                                        </div>
-                                        <hr/>
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart" />
-                                            <input type="hidden" name="add" value="1" />
-                                            <input type="hidden" name="hub_item" value="Solid Formal Brown Shirt" />
-                                            <input type="hidden" name="amount" value="24.99" />
-                                            <button type="submit" class="hub-cart phub-cart btn">
-                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                                            </button>
-                                            <button href="#" data-toggle="modal" data-target="#myModal1"></button>
-                                        </form>
+                                        <button type="submit" class="hub-cart phub-cart btn">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -424,10 +528,10 @@ const BookHot = () => {
                             <div class="item">
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/fs7.jpg" alt="img" class="card-img-top" />
+                                        <img src="images/fs6.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -497,9 +601,234 @@ const BookHot = () => {
                             </div>
 
                             <div class="item">
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs15.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card body --> */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Khởi nghiệp bán lẻ</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$40.00</p>
+                                            <p class="line-through">$50.99</p>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card footer --> */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <!-- <div class="matrlf-mid"> --> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (404)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Black Casual Men's Blazer" />
+                                            <input type="hidden" name="amount" value="20.00" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs16.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card body --> */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Từ điển tiếng EM</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$24.99</p>
+                                            <p class="line-through">$35.99</p>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card footer --> */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <!-- <div class="matrlf-mid"> --> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (404)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Black Casual Men's Blazer" />
+                                            <input type="hidden" name="amount" value="20.00" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs17.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card body --> */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Cân bằng cảm xúc</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$20.00</p>
+                                            <p class="line-through">$25.00</p>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card footer --> */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <!-- <div class="matrlf-mid"> --> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (404)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Black Casual Men's Blazer" />
+                                            <input type="hidden" name="amount" value="20.00" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
                                 <div class="product-men p-3 text-center">
                                     <img src="images/p2.png" class="img-responsive" alt="" />
-                                    <a href="women.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
+                                    <a href="bookhot.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
                                 </div>
                             </div>
                         </div>
@@ -512,10 +841,10 @@ const BookHot = () => {
                                 {/* <!-- card --> */}
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/fs11.png" alt="img" class="card-img-top" />
+                                        <img src="images/fs7.png" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="girl.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -588,10 +917,10 @@ const BookHot = () => {
                                 {/* <!-- card --> */}
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/fs12.jpg" alt="img" class="card-img-top" />
+                                        <img src="images/fs8.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="girl.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -664,12 +993,12 @@ const BookHot = () => {
                                 {/* <!-- card --> */}
                                 <div class="card product-men p-3 out_w3">
                                     <div class="men-thumb-item position-relative">
-                                        <img src="images/fs13.jpg" alt="img" class="card-img-top" />
-                                        <span class="px-2 position-absolute">out of stock</span>
+                                        <img src="images/fs9.jpg" alt="img" class="card-img-top" />
+                                        <span class="px-2 position-absolute">Bán hết</span>
                                     </div>
                                     {/* <!-- card body --> */}
                                     <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Ngôi nhà nghìn hành lang</h5>
+                                        <h5 class="card-title text-capitalize">Mình cư trú...</h5>
                                         <div class="card-text d-flex justify-content-between">
                                             <p class="text-dark font-weight-bold">$19.00</p>
                                             <p class="line-through">$25.00</p>
@@ -687,7 +1016,7 @@ const BookHot = () => {
                             <div class="item">
                                 <div class="product-men p-3 text-center">
                                     <img src="images/p2.png" class="img-responsive" alt="" />
-                                    <a href="women.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
+                                    <a href="bookhot.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
                                 </div>
                             </div>
                         </div>
@@ -700,8 +1029,8 @@ const BookHot = () => {
                                 {/* <!-- card --> */}
                                 <div class="card product-men p-3 out_w3">
                                     <div class="men-thumb-item position-relative">
-                                        <img src="images/fs20.jpg" alt="img" class="card-img-top" />
-                                        <span class="px-2 position-absolute">out of stock</span>
+                                        <img src="images/fs10.jpg" alt="img" class="card-img-top" />
+                                        <span class="px-2 position-absolute">Bán hết</span>
                                     </div>
                                     {/* <!-- card body --> */}
                                     <div class="card-body  py-3 px-2">
@@ -724,10 +1053,10 @@ const BookHot = () => {
                                 {/* <!-- card --> */}
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/fs17.jpg" alt="img" class="card-img-top" />
+                                        <img src="images/fs11.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="boy.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -800,10 +1129,10 @@ const BookHot = () => {
                                 {/* <!-- card --> */}
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/fs19.jpg" alt="img" class="card-img-top" />
+                                        <img src="images/fs12.jpg" alt="img" class="card-img-top" />
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
-                                                <a href="boy.html" class="link-product-add-cart">Quick View</a>
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -873,9 +1202,161 @@ const BookHot = () => {
                             </div>
 
                             <div class="item">
+                                {/* <!-- card --> */}
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs18.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card body --> */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Mắt biếc</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$21.00</p>
+                                            <p class="line-through">$39.99</p>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card footer --> */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <!-- <div class="matrlf-mid"> --> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (244)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Boys Casual Shirt and Jeans" />
+                                            <input type="hidden" name="amount" value="24.99" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#modal" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                {/* <!-- card --> */}
+                                <div class="card product-men p-3">
+                                    <div class="men-thumb-item">
+                                        <img src="images/fs19.jpg" alt="img" class="card-img-top" />
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="chitiet.html" class="link-product-add-cart">Chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card body --> */}
+                                    <div class="card-body  py-3 px-2">
+                                        <h5 class="card-title text-capitalize">Đàn ông, đàn bà</h5>
+                                        <div class="card-text d-flex justify-content-between">
+                                            <p class="text-dark font-weight-bold">$17.99</p>
+                                            <p class="line-through">$24.99</p>
+                                        </div>
+                                    </div>
+                                    {/* <!-- card footer --> */}
+                                    <div class="card-footer d-flex justify-content-end">
+                                        <div class="caption">
+                                            {/* <!-- <div class="matrlf-mid"> --> */}
+                                                <ul class="ratingfocus">
+                                                    <li>
+                                                        <a href="#1">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#2">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#3">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#4">
+                                                            <span class="fa fa-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#5">
+                                                            <span class="fa fa-star gray-star" aria-hidden="true"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        (244)
+                                                    </li>
+                                                </ul>
+                                                <img src="images/logobanhang.png" alt="" />
+                                                <button class="cheap">Cheaper refunds</button>
+                                                <br/>
+                                                <img src="images/basic-rgb-162294976 (2).jpg" alt="" />
+                                                <button class="cheap">Free ship now</button>
+                                                <div class="clearfix"> </div>
+                                            {/* <!-- </div> --> */}
+                                        </div>
+                                        <hr/>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="hub_item" value="Boys Casual Shirt and Jeans" />
+                                            <input type="hidden" name="amount" value="24.99" />
+                                            <button type="submit" class="hub-cart phub-cart btn">
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <button href="#modal" data-toggle="modal" data-target="#myModal1"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
                                 <div class="product-men p-3 text-center">
                                     <img src="images/p2.png" class="img-responsive" alt="" />
-                                    <a href="women.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
+                                    <a href="bookhot.html" class="btn btn-lg bg-info text-white">Xem thêm</a>
                                 </div>
                             </div>
                         </div>

@@ -5,7 +5,6 @@ const About = () => {
         // about
         <section className="tabs_pro py-md-5 pt-sm-3 pb-5" id="about">
             <h5 className="head_agileinfo text-center text-capitalize pb-5">
-                <span className="about">Giới thiệu</span>
                 <span>Giới</span> thiệu
             </h5>
             <div className="container">

@@ -16,6 +16,8 @@ import TrangNDSuKien2 from './Pages/TrangNDSuKien2';
 import TrangNDSuKien3 from './Pages/TrangNDSuKien3';
 import TrangDocNhieu from './Pages/TrangDocNhieu';
 import TrangDocNhieu1 from './Pages/TrangDocNhieu1';
+import Trang_truyen from './Pages/Trang_truyen';
+import Trang_sach from './Pages/Trang_sach';
 
 import Footer from './Modules/Footer/Footer';
 import { useState } from 'react';
@@ -84,6 +86,14 @@ function App() {
 
         <Route path='/contact.html'>
           <Trang_lien_he />
+        </Route>
+
+        <Route path='/bookhot.html'>
+          <Trang_sach />
+        </Route>
+
+        <Route path='/storyhot.html'>
+          <Trang_truyen />
         </Route>
 
         <Route path='/about.html'>

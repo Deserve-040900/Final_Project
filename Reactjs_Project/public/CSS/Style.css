@@ -153,6 +153,12 @@ h1 a.navbar-brand {
     font-size: 1em;
 }
 
+/* COMIC */
+.ads-responsive {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /* CART  */
 
 /*-- cart-button --*/
@@ -209,18 +215,6 @@ h5.head_agileinfo {
     color: #000;
     font-family: 'Elsie Swash Caps', cursive;
     margin-top: 50px;
-}
-h5.head_agileinfo span.about{
-    position: absolute;
-    top: 30px;
-    color: #f4f4f4;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    font-weight: 700;
-    font-size: 52px;
-    text-transform: uppercase;
-    line-height: 0;
 }
 
 h5.head_agileinfo span {
