@@ -18,22 +18,22 @@ const Carousel1 = () => {
             {/* The slideshow */}
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="images/comic/img-comic-1.jpg" alt="img 1" width="1100" height="600" />
+                    <img src="images/comic/img-comic-1.jpg" alt="img 1" width="1100" height="400" />
                 </div>
                 <div className="carousel-item">
-                    <img src="images/comic/img-comic-2.jpg" alt="img 2" width="1100" height="600" />
+                    <img src="images/comic/img-comic-2.jpg" alt="img 2" width="1100" height="400" />
                 </div>
                 <div className="carousel-item">
-                    <img src="images/comic/img-comic-3.jpg" alt="img 3" width="1100" height="600" />
+                    <img src="images/comic/img-comic-3.jpg" alt="img 3" width="1100" height="400" />
                 </div>
                 <div className="carousel-item">
-                    <img src="images/comic/img-comic-4.jpg" alt="img 4" width="1100" height="600" />
+                    <img src="images/comic/img-comic-4.jpg" alt="img 4" width="1100" height="400" />
                 </div>
                 <div className="carousel-item">
-                    <img src="images/comic/img-comic-5.jpg" alt="img 5" width="1100" height="600" />
+                    <img src="images/comic/img-comic-5.jpg" alt="img 5" width="1100" height="400" />
                 </div>
                 <div className="carousel-item">
-                    <img src="images/comic/img-comic-6.jpg" alt="img 6" width="1100" height="600" />
+                    <img src="images/comic/img-comic-6.jpg" alt="img 6" width="1100" height="400" />
                 </div>
             </div>
             

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background:#e3f1ff;
+    background:#bbddff;
 }
 
 body a,
@@ -13,12 +13,7 @@ body a,
     outline: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -188,12 +183,12 @@ button.btn.top_hub_cart {
 
 /*/////////////////////////middleBar//////////////////////*/
 
-form.nav-search.form-inline.form-control {
+/* form.nav-search.form-inline.form-control {
     background: transparent;
     border: none;
-}
+} */
 
-.form-control {
+input.form-control {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
@@ -907,7 +902,7 @@ p.c-txt {
 }
 
 .contact-top1 .form-group p,
-form.f-color .form-control {
+form.f-color input.form-control {
     color: #000;
     letter-spacing: 1px;
     background: transparent;

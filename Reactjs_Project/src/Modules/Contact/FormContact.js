@@ -170,31 +170,31 @@ class FormContact extends Component {
             <form action="#" method="post" className="f-color" onSubmit={this.handleSubmitFormLienHe}>
                 <div className="form-group">
                     <p title="contactusername">Họ Tên:</p>
-                    <input type="text" name="ho_ten" onChange={this.handleChangeInput} value={this.state.ho_ten} classNameName="form-control" placeholder={"Họ tên"} id="contactusername" required />
-                    <div classNameName="error">
+                    <input type="text" name="ho_ten" onChange={this.handleChangeInput} value={this.state.ho_ten} className="form-control" placeholder={"Họ tên"} id="contactusername" required />
+                    <div className="error">
                         {this.state.message_error.ho_ten}
                     </div>
                 </div>
 
                 <div className="form-group">
                     <p title="contactemail">Địa chỉ Email:</p>
-                    <input type="text" name="email" onChange={this.handleChangeInput} value={this.state.email} classNameName="form-control" placeholder={"Email"} id="contactemail" required />
-                    <div classNameName="error">
+                    <input type="text" name="email" onChange={this.handleChangeInput} value={this.state.email} className="form-control" placeholder={"Email"} id="contactemail" required />
+                    <div className="error">
                         {this.state.message_error.email}
                     </div>
                 </div>
 
                 <div className="form-group">
                     <p title="contactphone">Số điện thoại:</p>
-                    <input type="text" min="10" name="so_dien_thoai" onChange={this.handleChangeInput} value={this.state.so_dien_thoai} classNameName="form-control" placeholder={"Số điện thoại"} id="contactemail" required />
-                    <div classNameName="error">
+                    <input type="text" min="10" name="so_dien_thoai" onChange={this.handleChangeInput} value={this.state.so_dien_thoai} className="form-control" placeholder={"Số điện thoại"} id="contactemail" required />
+                    <div className="error">
                         {this.state.message_error.so_dien_thoai}
                     </div>
                 </div>
 
                 <div className="form-group">
                     <p title="contactcomment">Lời tâm sự đêm khuya:</p>
-                    <textarea name="noi_dung" onChange={this.handleChangeInput} value={this.state.noi_dung} classNameName="form-control" placeholder={"Tâm sự mỏng ..."} rows="5" id="contactcomment" required></textarea>
+                    <textarea name="noi_dung" onChange={this.handleChangeInput} value={this.state.noi_dung} className="form-control" placeholder={"Tâm sự mỏng ..."} rows="5" id="contactcomment" required></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary btn-block">Gửi thông tin liên hệ</button>
             </form>
