@@ -51,7 +51,7 @@ const Shop = () => {
                             <ul className="dropdown-menu6">
                                 <li>
                                     <div id="slider-range"></div>
-                                    <input type="text" id="amount" style="border: 0;" />
+                                    <input type="text" id="amount" />
                                 </li>
                             </ul>
                         </div>

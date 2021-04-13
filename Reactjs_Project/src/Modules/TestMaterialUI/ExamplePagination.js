@@ -16,7 +16,7 @@ export default function ExamplePagination() {
     return (
         <div className={classes.root}>
             {/* <Typography>Page: {page}</Typography> */}
-            <Pagination count={10} variant="outlined" color="primary" defaultPage={1} showFirstButton showLastButton />
+            <Pagination count={10} color="primary" defaultPage={1} showFirstButton showLastButton />
         </div>
     );
 }

@@ -10,11 +10,8 @@ class FormReviewGioHang extends Component {
         super(props);
         this.state = {
             mang_gio_hang: []
-        };
-
-        
-        this.ProcessRedirect = this.ProcessRedirect.bind(this);
-        
+        };        
+        this.ProcessRedirect = this.ProcessRedirect.bind(this);        
     }
 
     componentDidMount(){

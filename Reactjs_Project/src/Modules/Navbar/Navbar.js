@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LogoBanner from '../TopBanner/LogoBanner';
-import ButtonGoToGioHang from '../ButtonGoToGioHang/index';
+import GioHang from '../ButtonGoTo/GioHang';
+import DangNhap from '../ButtonGoTo/DangNhap';
 
 class Navbar extends Component {
     constructor(props) {
@@ -68,12 +69,10 @@ class Navbar extends Component {
 
                         <div className="nav-icon d-flex">
                             {/* sigin and sign up */}
-                            <a className="text-dark login_btn align-self-center mx-3" href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn">
-                                <i className="glyphicon glyphicon-user"></i>
-                            </a>
+                            <DangNhap />
 
                             {/* shopping cart */}
-                            <ButtonGoToGioHang />
+                            <GioHang />
                         </div>
                     </div>
                 </nav>

@@ -171,27 +171,52 @@ button.top_chr_cart {
     outline: none;
 }
 
-header i {
+button.btn.top_hub_card {
+    background: #64b3f4;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+.top_hub_card span.glyphicon{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+button.btn.top_hub_cart {
+    background: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+.top_hub_cart span.glyphicon{
     font-size: 1.5em;
     color: #64b3f4;
 }
-
-
-
-button.btn.top_hub_cart {
-    background: white
-}
-
+/* .button_gio_hang {
+    top: 10px;
+    position: fixed;
+    right: 0;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 5px 10px #000;
+    cursor: pointer;
+    background: #fff;
+} */
 
 
 /*-- cart-css --*/
 
 /*/////////////////////////middleBar//////////////////////*/
 
-/* form.nav-search.form-inline.form-control {
-    background: transparent;
+form.nav-search.form-inline.form-control {
+    background-color: rgba(175, 238, 238, 0.3);
     border: none;
-} */
+}
 
 input.form-control {
     -webkit-box-shadow: none;
