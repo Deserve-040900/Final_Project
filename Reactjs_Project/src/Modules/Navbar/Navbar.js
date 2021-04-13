@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LogoBanner from '../TopBanner/LogoBanner';
+import ButtonGoToGioHang from '../ButtonGoToGioHang/index';
 
 class Navbar extends Component {
     constructor(props) {
@@ -68,21 +69,11 @@ class Navbar extends Component {
                         <div className="nav-icon d-flex">
                             {/* sigin and sign up */}
                             <a className="text-dark login_btn align-self-center mx-3" href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn">
-                                <i className="far fa-user"></i>
+                                <i className="glyphicon glyphicon-user"></i>
                             </a>
 
                             {/* shopping cart */}
-                            <div className="cart-mainf">
-                                <div className="hubcart hubcart2 cart cart box_1">
-                                    <form action="#" method="post">
-                                        <input type="hidden" name="cmd" value="_cart" />
-                                        <input type="hidden" name="display" value="1" />
-                                        <button className="btn top_hub_cart mt-1" type="submit" name="submit" value="" title="Cart">
-                                            <i className="fas fa-shopping-bag"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
+                            <ButtonGoToGioHang />
                         </div>
                     </div>
                 </nav>

@@ -3,7 +3,7 @@ import InnerBanner from '../Modules/About/InnerBanner';
 import Contact from '../Modules/Contact/Contact';
 import Breadcrumbs from '../Modules/Contact/Breadcrumbs';
 
-class Trang_lien_he extends Component {
+class TrangLienHe extends Component {
     render() {
         return (
             <>
@@ -17,4 +17,4 @@ class Trang_lien_he extends Component {
     }
 }
 
-export default Trang_lien_he;
+export default TrangLienHe;

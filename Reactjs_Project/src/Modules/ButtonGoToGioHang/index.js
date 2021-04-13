@@ -7,9 +7,9 @@ class ButtonGoToGioHang extends Component {
             <>
                 <Link to="/gio-hang">
                     <div className="button_gio_hang">
-                        
-                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                        
+                        <button className="btn top_hub_cart mt-1" type="submit" name="submit" value="" title="Cart">
+                            <i className="glyphicon glyphicon-shopping-cart"></i>
+                        </button>
                     </div>
                 </Link>
             </>

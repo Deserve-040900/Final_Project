@@ -8,7 +8,7 @@ import BookHot from '../Modules/BookHot/BookHot';
 import ComicsHot from '../Modules/ComicsHot/ComicsHot';
 import About from '../Modules/Home/About';
 import Service from '../Modules/Home/Service';
-class Trang_chu extends Component {
+class TrangChu extends Component {
 	render() {
 		return (
 			<>
@@ -34,4 +34,4 @@ class Trang_chu extends Component {
 	}
 }
 
-export default Trang_chu;
+export default TrangChu;

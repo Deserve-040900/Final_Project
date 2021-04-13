@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import DangTin from '../Modules/DangTin/dangtin';
 
-class Trang_blog extends Component {
+class TrangBlog extends Component {
     render() {
         return (
             <>
@@ -11,4 +11,4 @@ class Trang_blog extends Component {
     }
 }
 
-export default Trang_blog;
+export default TrangBlog;

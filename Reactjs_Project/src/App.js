@@ -2,10 +2,10 @@ import './App.css';
 
 import Navbar from './Modules/Navbar/Navbar';
 
-import Trang_chu from './Pages/Trang_chu';
-import Trang_gioi_thieu from './Pages/Trang_gioi_thieu';
-import Trang_lien_he from './Pages/Trang_lien_he';
-import Trang_blog from './Pages/Trang_blog';
+import TrangChu from './Pages/TrangChu';
+import TrangGioiThieu from './Pages/TrangGioiThieu';
+import TrangLienHe from './Pages/TrangLienHe';
+import TrangBlog from './Pages/TrangBlog';
 import TrangFAQ from './Pages/TrangFAQ';
 import TrangThanhLy from './Pages/TrangThanhLy';
 import TrangTraoDoiChoTang from './Pages/TrangTraoDoiChoTang';
@@ -16,8 +16,8 @@ import TrangNDSuKien2 from './Pages/TrangNDSuKien2';
 import TrangNDSuKien3 from './Pages/TrangNDSuKien3';
 import TrangDocNhieu from './Pages/TrangDocNhieu';
 import TrangDocNhieu1 from './Pages/TrangDocNhieu1';
-import Trang_truyen from './Pages/Trang_truyen';
-import Trang_sach from './Pages/Trang_sach';
+import TrangTruyen from './Pages/TrangTruyen';
+import TrangSach from './Pages/TrangSach';
 
 import Footer from './Modules/Footer/Footer';
 import { useState } from 'react';
@@ -64,10 +64,6 @@ function App() {
           <TrangNDSuKien/>
         </Route>
 
-        <Route path='/event.html'>
-          <TrangSuKien/>
-        </Route>
-
         <Route path='/form-traodoi-chotang.html'>
           <TrangTraoDoiChoTang/>
         </Route>
@@ -80,28 +76,32 @@ function App() {
           <TrangFAQ/>
         </Route>
 
-        <Route path='/blog.html'>
-          <Trang_blog />
+        <Route path='/event.html'>
+          <TrangSuKien/>
         </Route>
 
         <Route path='/contact.html'>
-          <Trang_lien_he />
+          <TrangLienHe />
         </Route>
 
-        <Route path='/bookhot.html'>
-          <Trang_sach />
-        </Route>
-
-        <Route path='/storyhot.html'>
-          <Trang_truyen />
+        <Route path='/blog.html'>
+          <TrangBlog />
         </Route>
 
         <Route path='/about.html'>
-          <Trang_gioi_thieu />
+          <TrangGioiThieu />
         </Route>
 
-        <Route path='/index.html'>
-          <Trang_chu />
+        <Route path='/storyhot.html'>
+          <TrangTruyen />
+        </Route>
+
+        <Route path='/bookhot.html'>
+          <TrangSach />
+        </Route>
+
+        <Route path='/'>
+          <TrangChu />
         </Route>
       </Switch>
 

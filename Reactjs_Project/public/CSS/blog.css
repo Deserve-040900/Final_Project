@@ -8,10 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
+/* body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-}
+} */
 
 a {
   color: #cc1616;
@@ -22,9 +22,9 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-}
+} */
 
 
 /*--------------------------------------------------------------
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 
-.navbar-brand {
+/* .navbar-brand {
   float: left;
   height: 50px;
   padding: 15px 15px;
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Mobile Navigation */
-.mobile-nav-toggle {
+/*.mobile-nav-toggle {
   position: fixed;
   right: 15px;
   top: 15px;
@@ -247,13 +247,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
-}
+} */
 
 
 /*--------------------------------------------------------------
 # banner Section
 --------------------------------------------------------------*/
-#banner {
+/* #banner {
   width: 100%;
   height: 70vh;
   background: url("../img/Hinh-anh-quyen-sach\ \(2\).jpg") bottom center;
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-}
+} */
 
 .color-b-store {
   color: #cc1616;
@@ -392,7 +392,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+/* .about .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
@@ -414,7 +414,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
+} */
 
 .name {
   color: #cc1616;
@@ -505,7 +505,7 @@ section {
   padding: 1rem;
 } */
 
-.form-group label {
+.form-group div {
   font-weight: 700;
 }
 

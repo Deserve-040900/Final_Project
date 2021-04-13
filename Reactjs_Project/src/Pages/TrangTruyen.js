@@ -5,7 +5,7 @@ import ListUpdate from '../Modules/Comic/ListUpdate';
 import Complete from '../Modules/Comic/Complete';
 import Ads from '../Modules/Comic/Ads';
 
-class Trang_truyen extends Component {
+class TrangTruyen extends Component {
     render() {
         return (
             <>
@@ -23,4 +23,4 @@ class Trang_truyen extends Component {
     }
 }
 
-export default Trang_truyen;
+export default TrangTruyen;

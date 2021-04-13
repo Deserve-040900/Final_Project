@@ -7,7 +7,7 @@ import Advice2 from '../Modules/About/Advice2';
 import Instagram from '../Modules/About/Instagram';
 import Service from '../Modules/Home/Service';
 
-class Trang_gioi_thieu extends Component {
+class TrangGioiThieu extends Component {
     render() {
         return (
             <>
@@ -29,4 +29,4 @@ class Trang_gioi_thieu extends Component {
     }
 }
 
-export default Trang_gioi_thieu;
+export default TrangGioiThieu;

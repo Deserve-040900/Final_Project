@@ -2,7 +2,7 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 h1 {
@@ -147,7 +147,7 @@ a {
     border: 0
 }
 
-h1,h2,h3,h4 {
+/* h1,h2,h3,h4 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
@@ -178,7 +178,7 @@ h3 {
 
 h4 {
     font-size: 18px
-}
+} */
 
 .text-center {
     text-align: center
